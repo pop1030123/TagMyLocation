@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		C0FD445A1EECFA76005F6482 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C0FD44591EECFA76005F6482 /* main.m */; };
 		C0FD445D1EECFA76005F6482 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C0FD445C1EECFA76005F6482 /* AppDelegate.m */; };
-		C0FD44601EECFA76005F6482 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0FD445F1EECFA76005F6482 /* FirstViewController.m */; };
+		C0FD44601EECFA76005F6482 /* CurrentLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0FD445F1EECFA76005F6482 /* CurrentLocationViewController.m */; };
 		C0FD44631EECFA76005F6482 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0FD44621EECFA76005F6482 /* SecondViewController.m */; };
 		C0FD44661EECFA76005F6482 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0FD44641EECFA76005F6482 /* Main.storyboard */; };
 		C0FD44681EECFA76005F6482 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0FD44671EECFA76005F6482 /* Assets.xcassets */; };
@@ -21,8 +21,8 @@
 		C0FD44591EECFA76005F6482 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C0FD445B1EECFA76005F6482 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C0FD445C1EECFA76005F6482 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C0FD445E1EECFA76005F6482 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		C0FD445F1EECFA76005F6482 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		C0FD445E1EECFA76005F6482 /* CurrentLocationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CurrentLocationViewController.h; sourceTree = "<group>"; };
+		C0FD445F1EECFA76005F6482 /* CurrentLocationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CurrentLocationViewController.m; sourceTree = "<group>"; };
 		C0FD44611EECFA76005F6482 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		C0FD44621EECFA76005F6482 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		C0FD44651EECFA76005F6482 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -63,8 +63,8 @@
 			children = (
 				C0FD445B1EECFA76005F6482 /* AppDelegate.h */,
 				C0FD445C1EECFA76005F6482 /* AppDelegate.m */,
-				C0FD445E1EECFA76005F6482 /* FirstViewController.h */,
-				C0FD445F1EECFA76005F6482 /* FirstViewController.m */,
+				C0FD445E1EECFA76005F6482 /* CurrentLocationViewController.h */,
+				C0FD445F1EECFA76005F6482 /* CurrentLocationViewController.m */,
 				C0FD44611EECFA76005F6482 /* SecondViewController.h */,
 				C0FD44621EECFA76005F6482 /* SecondViewController.m */,
 				C0FD44641EECFA76005F6482 /* Main.storyboard */,
@@ -157,7 +157,7 @@
 			files = (
 				C0FD44631EECFA76005F6482 /* SecondViewController.m in Sources */,
 				C0FD445D1EECFA76005F6482 /* AppDelegate.m in Sources */,
-				C0FD44601EECFA76005F6482 /* FirstViewController.m in Sources */,
+				C0FD44601EECFA76005F6482 /* CurrentLocationViewController.m in Sources */,
 				C0FD445A1EECFA76005F6482 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
